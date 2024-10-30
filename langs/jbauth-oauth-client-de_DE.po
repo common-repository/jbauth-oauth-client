@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JBAuth OAuth Client\n"
+"POT-Creation-Date: 2018-10-23 04:33+0200\n"
+"PO-Revision-Date: 2018-10-23 04:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: jbauth_oauth.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: jbauth_oauth.php:38
+msgid "Hi there!  I'm just a plugin, not much I can do when called directly."
+msgstr "Hi there!  I'm just a plugin, not much I can do when called directly."
+
+#: jbauth_oauth.php:87
+msgid "jbauth Oauth"
+msgstr "jbauth Oauth"
+
+#: jbauth_oauth.php:112
+msgid "This will add a Login Button to your menu"
+msgstr "Platziere einen Login Button in dein Menü"
+
+#: jbauth_oauth.php:143
+msgid "You are not authorized to view this page."
+msgstr "Du bist nicht autorisiert diese Seite aufzurufen."
+
+#: jbauth_oauth.php:176
+msgid "settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: jbauth_oauth.php:180
+msgid "JBAuth Authentication Plugin"
+msgstr "JBAuth Authentifizierungs Erweiterung"
+
+#: jbauth_oauth.php:181
+msgid "by Justin René Back"
+msgstr "von Justin René Back"
+
+#: jbauth_oauth.php:182
+msgid ""
+"Go to https://dev.justinback.com and create a new Application and API Key if "
+"you haven't already"
+msgstr ""
+"Rufe https://dev.justinback.com auf, erstelle eine neue Anwendung und einen "
+"API Schlüssel wenn du keinen hast"
+
+#: jbauth_oauth.php:183
+msgid ""
+"Then enter the  client id and secret from your Application below, the api "
+"key from the dashboard and save the changes"
+msgstr ""
+"Gebe dann die Client ID und Secret von deiner Anwendung und den API "
+"Schlüssel in die Eingabefelder unten ein und speicher die Änderungen"
+
+#: jbauth_oauth.php:187
+msgid "Client ID: "
+msgstr "Client ID: "
+
+#: jbauth_oauth.php:191
+msgid "API Key: "
+msgstr "API Schlüssel: "
+
+#: jbauth_oauth.php:196
+msgid "Client Secret: "
+msgstr "Client Secret: "
+
+#: jbauth_oauth.php:201
+msgid ""
+"Important: Make sure you have entered as authorized Url redirect, the "
+"following URI: "
+msgstr ""
+"Wichtig: Stelle sicher dass du folgende URL in das Weiterleitungsfeld "
+"eingeben hast: "
+
+#: jbauth_oauth.php:206
+msgid "Check to allow user registration "
+msgstr "Registrierung erlauben "
+
+#: jbauth_oauth.php:212
+msgid ""
+"If you allow that users can be registered through JBAuth, a user will be "
+"created after the login with JBAuth, if the user doesn't exists on the site."
+msgstr ""
+"Wenn du erlaubst, dass Benutzer sich via JBAuth registrieren dürfen, wird "
+"ein neuer Benutzer nach dem Login angelegt wenn dieser nicht bereits "
+"existiert."
+
+#: jbauth_oauth.php:214
+msgid "Save Changes"
+msgstr "Änderungen Speichern"
+
+#: jbauth_oauth.php:217
+msgid "As a widget: [jbauthbtn]"
+msgstr "Als ein Widget: [jbauthbtn]"
+
+#: jbauth_oauth.php:219
+msgid ""
+"To put your button in a Widget use our Widget \"jbauth Oauth Widget\", where "
+"you can add a Title and a Description to your Button"
+msgstr ""
+"Um den Login Button als Widget zu nutzen, kannst du das \"jbauth Oauth Widget"
+"\" benutzen, wo du den Titel und die Beschreibung ändern kannst"
+
+#: jbauth_oauth.php:221
+msgid ""
+"To add the JBAuth button directly to your php code, you can use "
+"<code>do_shortcode('[jbauthbtn]');</code>."
+msgstr ""
+"Um den JBAuth login button direkt via PHP zu nutzen, kannst du folgenden "
+"syntax benutzen: <code>do_shortcode('[jbauthbtn]');</code>."
+
+#: jbauth_oauth.php:223
+msgid "To add it as a shortcode, just add [jbauthbtn]"
+msgstr "Um den login button als Shortcode zu verwenden: [jbauthbtn]"
+
+#: lib/functions.php:8
+msgid "Logged"
+msgstr "Logged"
+
+#: lib/functions.php:35
+msgid "You are making a not valid call"
+msgstr "You are making a not valid call"
+
+#: lib/functions.php:97 lib/functions.php:146
+msgid "An internal server error occurred while contacting JBAuth!<br><br><b>"
+msgstr ""
+"Ein Server Fehler ist aufgetreten während wir versucht haben JBAuth zu "
+"kontaktieren!<br><br><b>"
+
+#: lib/functions.php:118
+msgid "Your JBAuth account doesn't match any user on this page"
+msgstr "Dein JBAuth Account existiert nicht auf dieser Seite"
+
+#: lib/functions.php:138 lib/functions.php:142
+msgid "Error: "
+msgstr "Fehler: "
+
+#: lib/widget.php:35
+msgid "Title"
+msgstr "Titel"
+
+#: lib/widget.php:39
+msgid "Description"
+msgstr "Beschreibung"
+
+#. Plugin Name of the plugin/theme
+msgid "JBAuth OAuth Client"
+msgstr "JBAuth OAuth Client"
+
+#. Plugin URI of the plugin/theme
+msgid "https://git.justinback.com/PixelcatProductions/JBAuth-wordpress"
+msgstr "https://git.justinback.com/PixelcatProductions/JBAuth-wordpress"
+
+#. Description of the plugin/theme
+msgid "JBAuth Client"
+msgstr "JBAuth Client"
+
+#. Author of the plugin/theme
+msgid "Justin René Back"
+msgstr "Justin René Back"
+
+#. Author URI of the plugin/theme
+msgid "https://justinback.com/"
+msgstr "https://justinback.com/"
